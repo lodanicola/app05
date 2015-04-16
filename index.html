@@ -1,0 +1,66 @@
+<!doctype html> 
+<html> 
+<head> 
+<meta charset="UTF-8" /> 
+<title>Il mio primo sito Web per iPhone</title> 
+<style type="text/css" media="screen">@import "jqtouch/jqtouch.css";</style> 
+<style type="text/css" media="screen">@import "themes/apple/theme.css";</style>
+<style type="text/css" media="screen">
+ul.edgetoedge li a{
+background: url(themes/apple/img/chevron.png) right center no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff5d8), to(#ffeab1));
+}
+</style>			 
+<script src="jqtouch/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script> 
+<script src="jqtouch/jqtouch.js" type="application/x-javascript" charset="utf-8"></script> 
+<script type="text/javascript" charset="utf-8"> 
+var jQT = new $.jQTouch({ 
+icon: 'jqtouch.png', 
+addGlossToIcon: false, 
+startupScreen: 'jqt_startup.png', 
+statusBar: 'black' }); 
+</script> 
+</head> 
+<body> 
+<div id="home"> 
+<div class="toolbar"> 
+<h1>iPhone Website</h1> 
+</div> 
+<ul class="edgetoedge"> 
+<li><a href="#home">Home</a></li> 
+<li><a href="#chisono">Chi sono</a></li> 
+<li><a href="#contatti">Contatti</a></li>
+<li><a href="#copyleft">Copyleft</a></li> 
+</ul> 
+</div> 
+<div id="chisono"> 
+<div class="toolbar"> 
+<a href="#" class="back">back</a> 
+<h1>Chi sono</h1> 
+</div> 
+<div class="info"> Breve descrizione su di me e sul mio lavoro. </div>
+<ul class="edgetoedge"> 
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</li>
+<li>Sed placerat quam non ante ultricies interdum. Cras at..</li> 
+<li>Sed eget elit vel metus hendrerit imperdiet. Phasellus..</li> 
+</ul> 
+</div> 
+<div id="contatti"> 
+<div class="toolbar"> 
+<a href="#" class="back">back</a> 
+<h1>Contatti</h1> 
+</div> 
+<div class="info"> Recapiti </div>
+<ul class="edgetoedge">
+<li><a href="mailto:mail@miamail.it?subject=contatto">mail@miamail.it</a></li>
+<li><a href="tel:+39 xxx-xxx-xxx">+39 xxx-xxx-xxx</a></li>
+</ul>
+</div> 
+<div id="copyleft"> 
+<div class="toolbar"> 
+<a href="#" class="back">back</a> 
+<h1>Copyleft</h1> 
+</div> 
+<div class="info"> Tutti i contenuti possono essere utilizzati, diffusi e modificati liberamente.</div> 
+</div> 
+</body> 
+</html>
